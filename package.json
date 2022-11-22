@@ -1,0 +1,19 @@
+{
+	"name": "react-avanzado",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "orlandisCS",
+	"license": "MIT",
+	"dependencies": {
+		"apollo-server": "^3.11.1",
+		"bcryptjs": "^2.4.3",
+		"dotenv": "^16.0.3",
+		"jsonwebtoken": "^8.5.1",
+		"mongoose": "^6.7.2",
+		"nodemon": "^2.0.20"
+	},
+	"scripts": {
+		"start": "node .",
+		"dev": "nodemon ."
+	}
+}
