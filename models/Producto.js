@@ -21,5 +21,6 @@ const ProductosSchema = moongose.Schema({
 		default: Date.now(),
 	},
 });
+ProductosSchema.index({ nombre: 'text' });
 
 module.exports = moongose.model('Producto', ProductosSchema);
